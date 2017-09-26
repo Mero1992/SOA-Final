@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/styleprogramm.css" rel="stylesheet">
+        
+        
+<script src="https://www.gstatic.com/firebasejs/4.4.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCzlTNy3g_Ym7SF2BSqJgBrkVu6qTH3urs",
+    authDomain: "moradpour-mehrshad-final-soa.firebaseapp.com",
+    databaseURL: "https://moradpour-mehrshad-final-soa.firebaseio.com",
+    projectId: "moradpour-mehrshad-final-soa",
+    storageBucket: "moradpour-mehrshad-final-soa.appspot.com",
+    messagingSenderId: "1047313046599"
+  };
+  firebase.initializeApp(config);
+</script>
+    </head>
+    <body>
+      <a href="index.html"><button>Home</button></a>
+      <section class="container" id="appArea">
+
+      </section>
+    </body>
+    <script>
+  var ref = firebase.database().ref().child('programm');
+  var programm;
+  ref.once('value', (snap) => {
+      programm = snap.val();
+  }).then(() => {renderProgramm()})
+//   setTimeout(() => {renderExercises()}, 1000)
+  let renderProgramm = () => {
+        document.getElementById('appArea').innerHTML = '';
+        let keys = Object.keys(programm);
+        console.log(keys);
+            keys.map((programmID) => {
+            // Block of 1 programm
+                let block = document.createElement('div');
+                block.className = "programm-block";
+            // Programm Image
+                let programmImage = document.createElement('img');
+                programmImage.className = 'programm-image';
+                programmImage.src = programm[programmID].url;
+                block.appendChild(programmImage);
+            // Programm Title
+                let programmName = document.createElement('p');
+                programmName.className = 'programm-title';
+                poName = document.createTextNode(programm[programmID].name);
+                programmName.appendChild(poName);
+                block.appendChild(programmName)
+            // Exercise Describtion
+                let programmDescription = document.createElement('p');
+                programmDescription.className = 'programm-desc';
+                poDesc = document.createTextNode(programm[programmID].description);
+                programmDescription.appendChild(poDesc);
+                block.appendChild(programmDescription)   
+            // Add all to app area
+                document.getElementById('appArea').appendChild(block);
+            })
+        
+    }
+    </script>
+</html>

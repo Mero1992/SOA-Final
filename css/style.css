@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body{
+
+font-family: 'Roboto', sans-serif;
+background-image: url(../images/background1.jpg);
+	margin: 0px; /*Der Abstand von links nach rechts zum Rand, mit 0px haben wir ihnen ausgeschaltet*/
+}
+
+
+
+p {
+font-family: 'Roboto Condensed', sans-serif;
+	
+}
+
+
+
+#lala{
+color:khaki;
+font-size: 20px;
+background-color: #383838;
+}
+
+
+
+
+#logo{
+margin-top: 15px;
+display:flex;	 		/*Es wird alles nebeneinander in einer Box dargestellt */
+flex-direction:column;	 /* Untereinander dargestellt */
+align-items: center;	 /*Alle Items z.B. Logo Bild werden in die Mitte gestellt*/
+}
+
+
+#logo_bild {
+
+margin-bottom: 30px;
+width: 50%; 
+cursor: pointer;
+height: 200px;
+background-image: url(../images/logo.jpg);
+background-repeat: no-repeat;
+background-position: center;
+border-radius: 5px; 			/*Ecken vom Bild werden abgerundet*/
+overflow: hidden; 
+/*Alles was darüber hinausgeht, wird versteckt und somit werden auch die oberen Kanten abgerundet*/
+animation-name: rotate; 
+animation-duration:2s; 
+animation-iteration-count: 1000;
+
+}
+
+
+
+@keyframes rotate{
+	from{transform: rotate(360deg)}
+	to{transform:rotate(0)};
+
+} /*Animation des Logos*/
+
+
+
+
+
+#logo_text span{	
+    
+	font-size: 50px; /*Vergrößert den Text*/
+	text-decoration: none; 		/*Der Unterstrich zum Link auf die Startseite wird entfernt*/
+	color:khaki;
+    margin: 0px 550px;
+    
+	
+}
+
+
+
+#mitte {
+padding-left:5%; /*Links vom Rand aus sollen 5% Platz gelassen werden*/
+padding-right: 5%; /*Rechts vom Rand soll 5% Platz gelassen werden*/ 
+}
+
+
+
+
+#unten {
+padding-bottom: 20px;
+padding-top: 20px;
+margin-top: 20px;
+}
+#video{
+transform: translate(50px)
+}
+
+#unten p {
+text-align: center; 
+margin-bottom: 0px;
+}
+
+
+#social_icons {
+display:flex; 
+	justify-content: center;
+	align-items: center; 
+}
+
+#social_icons a{
+padding:10px;
+font-weight: 300;
+color:white; /*Innenfarbe der Buttons von Fb usw. weiss*/
+text-decoration: none; 
+margin:5px;
+}
+
+#facebook {
+background-color: #3b5998;
+}
+
+#instagram {
+background:linear-gradient(to right, #405de6, #5851db, #833ab4, #c13584,#e1306c, #fd1d1d, #f56040,#f77737,#fcaf45,#fcaf45,#405de6);
+}
+
+#twitter {
+background-color: #1da1f2;
+}
+#youtube {
+background-color: #cd201f; 
+}
+
+
+/*Ab hier fängt die Navigationsleiste an*/
+
+.navClass > ul{
+    background-color: #5E5D5D; /*Die Leistenfarbe*/
+    color:khaki; /*Die Farbe des Textes in der Menüleiste*/
+    font-size:20px; /*Die dicke des Texts*/
+    font-family:sans-serif;
+	opacity: 1; /*Standartwerte ist 0 man muss auf 1 setzen damit die leiste in den vodergrund gerät*/ 
+	
+}
+.navClass > ul a{ /*Anker des Ungeordneten Liste*/
+	background-color: #5E5D5D; /*Die Leistenfarbe*/
+    color:khaki; /*Die Farbe des Textes in der Menüleiste*/
+    font-size:20px; 
+    font-family:sans-serif; /*Schriftart*/
+	text-decoration: none; /*Enfernt den Unterstrich des Hyperlinkgs auf der Menüleiste*/
+}
+.navClass >ul>li a{
+	 list-style-type: none;
+    display:inline-block;
+    padding:5px 25px; 
+    position: relative; /*Muss relative sein damit das ausgeklappte wirklich breit ist*/
+}
+.navClass >ul>li {
+    list-style-type:none;
+    display:inline-block; 
+    padding:5px 25px; 
+    position: relative;     
+}
+
+iframe{
+margin: 0px 5px;
+}
+
+
+.navClass >ul>li>a:hover {
+ cursor: pointer;
+background-color:#383838;
+}
+
+
+
+ul.sub-menü {
+    position: absolute;
+    background-color: #383838;
+    list-style-type: none; 
+    width:169px; 
+    padding-left: 0px; 
+    margin-left: -25px; 
+    padding-top: 5px;
+    opacity:0; /*drop down eingeklappt wird*/
+}
+ul.sub-menü a {
+    position: absolute;
+    background-color: #383838;
+    list-style-type: none; 
+    width:126px; 
+    padding-left: 0px; 
+    margin-left: -30px; 
+    padding-top: 5px;
+    opacity:0.9; 
+}
+
+
+ul.sub-menü li   {
+	padding-left: 25px;
+    padding-top:5px; 
+    
+}
+.navClass li:hover .sub-menü{ /*Dropdown menü erscheint*/
+  opacity:1;
+}
+
+#name:hover{ /*Die Schattierung von Home und Nationalitäten wenn man mit der Maus darüber fährt*/
+cursor:pointer; 
+background-color:#383838;
+}
+
+#mitte p{
+color:white;
+width: 40%;
+}
+
+
+
+h2{
+color: khaki;
+}
+
+/*Video*/
+h3{
+color: khaki;
+transform: translate(51px); 
+}
+
+

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/stylemachine.css" rel="stylesheet">
+        
+        
+<script src="https://www.gstatic.com/firebasejs/4.4.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCzlTNy3g_Ym7SF2BSqJgBrkVu6qTH3urs",
+    authDomain: "moradpour-mehrshad-final-soa.firebaseapp.com",
+    databaseURL: "https://moradpour-mehrshad-final-soa.firebaseio.com",
+    projectId: "moradpour-mehrshad-final-soa",
+    storageBucket: "moradpour-mehrshad-final-soa.appspot.com",
+    messagingSenderId: "1047313046599"
+  };
+  firebase.initializeApp(config);
+</script>
+    </head>
+    <body>
+      <a href="index.html"><button>Home</button></a>
+      <section class="container" id="appArea">
+
+      </section>
+    </body>
+    <script>
+  var ref = firebase.database().ref().child('machine');
+  var machine;
+  ref.once('value', (snap) => {
+      machine = snap.val();
+  }).then(() => {renderMachine()})
+//   setTimeout(() => {renderExercises()}, 1000)
+  let renderMachine = () => {
+        document.getElementById('appArea').innerHTML = '';
+        let keys = Object.keys(machine);
+        console.log(keys);
+            keys.map((machineID) => {
+            // Block of 1 machine
+                let block = document.createElement('div');
+                block.className = "machine-block";
+            // Machine Image
+                let machineImage = document.createElement('img');
+                machineImage.className = 'machine-image';
+                machineImage.src = machine[machineID].url;
+                block.appendChild(machineImage);
+            // Machine Title
+                let machineName = document.createElement('p');
+                machineName.className = 'machine-title';
+                maName = document.createTextNode(machine[machineID].name);
+                machineName.appendChild(maName);
+                block.appendChild(machineName)
+            // Machine Describtion
+                let machineDescription = document.createElement('p');
+                machineDescription.className = 'machine-desc';
+                exDesc = document.createTextNode(machine[machineID].description);
+                machineDescription.appendChild(exDesc);
+                block.appendChild(machineDescription)   
+            // Add all to app area
+                document.getElementById('appArea').appendChild(block);
+            })
+        
+    }
+    </script>
+</html>

@@ -1,0 +1,157 @@
+{
+    "exercises" : {
+
+    
+        "id1" : {
+          "muscles" : "back",
+          "name" : "Pull-Ups",
+          "description" : "Step up and grasp bar with overhand wide grip. Pull body up until chin is above bar. Lower body until arms and shoulders are fully extended. Repeat.",
+          "url" : "http://www.ironmaster.com/wp-content/uploads/2017/07/unassisted-pullup.jpg"
+        },
+        "id2" : {
+          "muscles" : "back",
+          "name" : "Chin Ups",
+          "description" : " Grip the bar with your palms facing toward you. Pull body up until chin is above bar. Lower body until arms and shoulders are fully extended. Repeat.",
+          "url" : "http://i2.wp.com/www.myprotein.com/thezone/wp-content/uploads/2016/07/chinups-1.jpg?resize=203%2C213"
+        },
+        "id3" : {
+          "muscles" : "back",
+          "name" : "Deadlift",
+          "description" : "Proper Deadlift form starts with the weight on the floor. Pull the bar to your mid-things and lock your hips and knees. Return the weight to the floor by moving your hips back while bending your legs.",
+          "url" : "http://cdn-mf1.heartyhosting.com/sites/mensfitness.com/files/deadlift_1.jpg"
+        },
+        "id4" : {
+          "muscles" : "biceps",
+          "name" : "Barbell Curl",
+          "description" : "With elbows to side, raise bar until forearms are vertical. Lower until arms are fully extended. Repeat.",
+          "url" : "http://assets.menshealth.co.uk/main/embedded/30288/BarbellCurl.jpg"
+        },
+        "id5" : {
+          "muscles" : "biceps",
+          "name" : "Hammer Curl",
+          "description" : "With elbows to sides, raise one dumbbell until forearm is vertical and thumb faces shoulder. Lower to original position and repeat with alternative arm.",
+          "url" : "http://bodybuilding-wizard.com/wp-content/uploads/2015/08/standing-hammer-curls-2-9.jpg"
+        },
+        "id6" : {
+          "muscles" : "chest",
+          "name" : "Barbell Bench Press",
+          "description" : "Lower weight to chest. Press bar upward until arms are extended. Repeat.",
+          "url" : "http://assets.menshealth.co.uk/main/thumbs/15421/barbellbenchpress648.jpg"
+        },
+        "id7" : {
+          "muscles" : "chest",
+          "name" : "Low-Incline Barbell Bench Press ",
+          "description" : "Slowly lower the bar on a vertical line and stop before it touches your chest, then push up with force till you reach the initial position repeat.",
+          "url" : "https://www.menshealth.com/sites/menshealth.com/files/styles/listicle_slide_custom_user_phone_1x/public/images/slideshow2/2-incline-dumbbell-press.jpg?itok=PDJRW2iU"
+        },
+        "id8" : {
+          "muscles" : "chest",
+          "name" : "Butterfly",
+          "description" : "Press the arms together as far as possible and breathe out. Return the pads to the initial position without dropping the training weight",
+          "url" : "http://workoutlabs.com/wp-content/uploads/watermarked/Butterfly_M_WorkoutLabs.png"
+        },
+        "id9" : {
+          "muscles" : "leg",
+          "name" : "Squat",
+          "description" : "Straighten your body and keep your back straight slowly bend your knees until your thighs are parallel to the ground. Bring your body back into the starting position",
+          "url" : "http://www.backandbicepworkout.com/wp-content/uploads/2017/05/rookie-mistake-squat.jpg"
+    
+        },
+        "id10" : {
+          "muscles" : "leg",
+          "name" : "Front Squat",
+          "description" : "Descend until knees and hips are fully bent or until thighs are just past parallel to floor. Knees travel outward in direction of toes. Extend knees and hips until legs are straight. Return and repeat.",
+          "url" : "http://www.fitnesscentrumbolnes.nl/wp-content/uploads/2016/02/Front-squat.jpg"
+        },
+        "id11" : {
+          "muscles" : "leg",
+          "name" : "Leg Press",
+          "description" : "Extend hips and knees. Flex hips and knees to descend until knees are just short of complete flexion. Repeat.",
+          "url" : "https://www.technogym.com/wpress/wp-content/uploads/2015/06/legpressmed_selectionmed_businessuse_01.jpg"
+        }
+        },
+    
+    "machine" : {
+    
+      "id1" : {
+          "Gym Equipment" : "Bench Press",
+          "muscles" : "chest",
+          "name" : "Bench Press",
+          "Assigned Exercise" : "Barbell Pench Press",
+          "description" : "Olympic bench for working chest, shoulders, biceps and legs. Fits Olympic plates; measures 80 x 60 x 47.5 inches (W x H x D)",
+          "url" : "http://straighthealth.com/imgs/article_pics/og/bench-press.jpg"
+        },
+        "id2" : {
+          "Gym Equipment": "Butterfly Machine",
+          "muscles" : "chest",
+          "name" : "Butterfly Machine",
+          "Assigned Exercise" : "Butterfly",
+          "description" : "Body-Solid GPM65: Sit on the device and exercise the chest. Improved training effect thanks to the innovative 'Armstrong handles'. Dimensions: 166 x 72 x 82 cm.",
+          "url" : "https://i.pinimg.com/736x/44/53/56/445356b4849f3d20f628d85fca47af44--gym-equipment-names-gym-machines.jpg"
+        },
+        "id3" : {
+          "Gym Equipment": "Solid Leg Press Machine",
+          "muscles" : "leg",
+          "name" : "Solid Leg Press Machine",
+          "Assigned Exercise" : "Solid Leg Press & Hack Squad",
+          "description" : "IT70 Series. The IT Leg Press / Hack Squat's user friendly design makes working out more effective and comfortable. Dimensions :2253 x 975 x 1475mm.",
+          "url" : "https://www.rehabmart.com/imagesfromrd/BS-GLPH1100_Body-Solid_Leg_Press_and_Hack_Squat.jpg"
+        },
+        "id4" : {
+          "Gym Equipment": "Leg Press Machine",
+          "muscles" : "leg",
+          "name" : "Leg Press Machine",
+          "Assigned Exercise" : "Leg Press",
+          "description" : "The Technogym®leg press Element + Leg Press is a professional power tool for use in the gym. Perfect for the demanding workout of leg and buttocks. Dimension: 210x115x152 cm",
+          "url" : "https://www.technogym.com/media/catalog/product/cache/1/image/040ec09b1e35df139433887a97daa66f/M/B/MB50_legpress_element_hero_01.jpg"
+        },
+        "id5" : {
+          "Gym Equipment": "Front Leg Curl Machine",
+          "muscles" : "leg",
+          "name" : "Front Leg Curl Machine",
+          "Assigned Exercise" : "Front Leg",
+          "description" : "The Force USA Leg Extension/Curl Machine is strong enough for gym use, while designed to fit into any home. Dimensions: 450 x 500 x 450mm.",
+          "url" : "https://portal.mtvcountryclub.com:8443/images/uploaded/legextensionlegcurl.jpg"
+        }  
+
+},
+"programm":{
+    
+    "id1" : {
+          "name" : "Chest Training",
+          "description" : " 4x Barbell Bench Press, 4x Low-Incline Barbell 4x Bench Press, 4x Lower Chest Press",
+          "url" : "https://i.pinimg.com/originals/b6/7d/30/b67d30717029a4ca57b62a3a33246655.jpg"
+        },
+        "id2" : {
+          "name" : "Triceps Training",
+          "description" : "4x Single Arm Triceps, 4x Cable One Arm Tricep Extension, 4x Dips",
+          "url" : "http://www.ccpixs.com/ccimages/vector-calendar-tuesday-m-1311.jpg"
+        },
+        "id3" : {
+          "name" : "Break",
+          "description" : "Lorem ipsum dolor sit amet, quas veniam bonorum ius ad, mutat nonumes disputando ne eam, vivendo fabellas accusamus qui eu.",
+          "url" : "http://www.ccpixs.com/ccimages/vector-calendar-wednesday-m-1312.jpg"
+        },
+        "id4" : {
+          "name" : "Legs & ABS Training",
+          "description" : "4x Squat, 4x Front Squad, 4x Leg Press, 4x Side Plank, Flutter Kick",
+          "url" : "http://www.ccpixs.com/ccimages/vector-calendar-tuesday-m-1311.jpg"
+        },
+        "id5" : {
+          "name" : "Break",
+          "description" : "Lorem ipsum dolor sit amet, quas veniam bonorum ius ad, mutat nonumes disputando ne eam, vivendo fabellas accusamus qui eu.",
+          "url" : "http://www.ccpixs.com/ccimages/vector-calendar-friday-m-1314.jpg"
+        },
+        "id6" : {
+          "name" : "Back & Biceps Training",
+          "description" : "4x Pull-Ups, 4x Chin-Ups, 4x Deadlift, 4x Single-Arm Dumbbell Row, 4x Barbell Curl, 4x Hammer Curl",
+          "url" : "https://thumbs.dreamstime.com/t/saturday-14538524.jpg"
+        },
+        "id7" : {
+          "name" : "Eat so much you can!",
+          "description" : "Lorem ipsum dolor sit amet, quas veniam bonorum ius ad, mutat nonumes disputando ne eam, vivendo fabellas accusamus qui eu.",
+          "url" : "https://i.ytimg.com/vi/Na2uXLElPQc/maxresdefault.jpg"
+        }
+    
+        }
+}
