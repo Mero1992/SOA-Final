@@ -94,7 +94,7 @@
           "muscles" : "leg",
           "name" : "Solid Leg Press Machine",
           "Assigned Exercise" : "Solid Leg Press & Hack Squad",
-          "description" : "IT70 Series. The IT Leg Press / Hack Squat's user friendly design makes working out more effective and comfortable. Dimensions :2253 x 975 x 1475mm.",
+          "description" : "IT70 Series. The IT Leg Press / Hack Squat's user friendly design makes working out more effective. Dimensions :2253 x 975 x 1475mm.",
           "url" : "https://www.rehabmart.com/imagesfromrd/BS-GLPH1100_Body-Solid_Leg_Press_and_Hack_Squat.jpg"
         },
         "id4" : {
@@ -110,7 +110,7 @@
           "muscles" : "leg",
           "name" : "Front Leg Curl Machine",
           "Assigned Exercise" : "Front Leg",
-          "description" : "The Force USA Leg Extension/Curl Machine is strong enough for gym use, while designed to fit into any home. Dimensions: 450 x 500 x 450mm.",
+          "description" : "The Force USA Leg Extension/Curl Machine is strong enough for gym and home use. Dimensions: 450 x 500 x 450mm.",
           "url" : "https://portal.mtvcountryclub.com:8443/images/uploaded/legextensionlegcurl.jpg"
         }  
 
@@ -129,7 +129,7 @@
         },
         "id3" : {
           "name" : "Break",
-          "description" : "Lorem ipsum dolor sit amet, quas veniam bonorum ius ad, mutat nonumes disputando ne eam, vivendo fabellas accusamus qui eu.",
+          "description" : "Go to the Thai Massage.",
           "url" : "http://www.ccpixs.com/ccimages/vector-calendar-wednesday-m-1312.jpg"
         },
         "id4" : {
@@ -139,7 +139,7 @@
         },
         "id5" : {
           "name" : "Break",
-          "description" : "Lorem ipsum dolor sit amet, quas veniam bonorum ius ad, mutat nonumes disputando ne eam, vivendo fabellas accusamus qui eu.",
+          "description" : "Go to the Yoga Course.",
           "url" : "http://www.ccpixs.com/ccimages/vector-calendar-friday-m-1314.jpg"
         },
         "id6" : {
@@ -148,8 +148,8 @@
           "url" : "https://thumbs.dreamstime.com/t/saturday-14538524.jpg"
         },
         "id7" : {
-          "name" : "Eat so much you can!",
-          "description" : "Lorem ipsum dolor sit amet, quas veniam bonorum ius ad, mutat nonumes disputando ne eam, vivendo fabellas accusamus qui eu.",
+          "name" : "Cheat Day",
+          "description" : "Eat so much you can!",
           "url" : "https://i.ytimg.com/vi/Na2uXLElPQc/maxresdefault.jpg"
         }
     
